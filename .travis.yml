@@ -13,6 +13,7 @@ jdk:
 env:
   - BAZEL_VERSION=0.4.2
   - MY_VERSION=0.11
+  - VV=11.2
 
 addons:
   apt:
