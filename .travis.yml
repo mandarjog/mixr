@@ -3,5 +3,6 @@ go_import_path: istio.io
 install:
     - go get github.com/golang/lint/golint
     - make inst
-
+go:
+  - 1.7.3
 script: make test
