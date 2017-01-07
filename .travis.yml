@@ -2,6 +2,8 @@ dist: xenial
 
 lang: go
 
+go_import_path: istio.io
+
 go:
   - 1.7.x
 
@@ -10,6 +12,8 @@ jdk:
 
 env:
   - BAZEL_VERSION=0.4.2
+  - MY_VERSION=0.11
+  - VV=11.2
 
 addons:
   apt:
